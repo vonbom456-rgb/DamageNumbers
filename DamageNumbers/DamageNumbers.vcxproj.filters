@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files"><UniqueIdentifier>{C7D5C04A-0A27-43AF-9102-2A5C7DC50CF4}</UniqueIdentifier><Extensions>cpp;c</Extensions></Filter>
+    <Filter Include="Header Files"><UniqueIdentifier>{275B39A4-BDAE-427D-ACCB-36C8A5B6EA70}</UniqueIdentifier><Extensions>h;hpp</Extensions></Filter>
+  </ItemGroup>
+  <ItemGroup><ClCompile Include="..\Source\DamageNumbers.cpp"><Filter>Source Files</Filter></ClCompile></ItemGroup>
+  <ItemGroup><ClInclude Include="..\Source\MiniJson.h"><Filter>Header Files</Filter></ClInclude></ItemGroup>
+</Project>

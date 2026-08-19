@@ -1,0 +1,33 @@
+{
+  "General": {
+    "Enabled": true,
+    "ShowDealtDamage": true,
+    "ShowTakenDamage": true,
+    "ShowPlayers": true,
+    "ShowDinos": true,
+    "ShowStructures": true,
+    "ShowSelfDamage": false,
+    "ShowZeroDamage": false
+  },
+  "Display": {
+    "DealtColor": "Green",
+    "TakenColor": "Red",
+    "DealtScale": 1.85,
+    "TakenScale": 1.85,
+    "DisplayTime": 0.85,
+    "MinDamage": 1,
+    "MaxDamage": 100000000,
+    "ThousandsSeparator": true,
+    "DealtPrefix": "",
+    "TakenPrefix": ""
+  },
+  "Commands": {
+    "ToggleCommand": "/damage"
+  },
+  "Messages": {
+    "Sender": "DamageNumbers",
+    "Enabled": "Damage numbers enabled.",
+    "Disabled": "Damage numbers disabled.",
+    "ReloadOk": "DamageNumbers config reloaded."
+  }
+}
